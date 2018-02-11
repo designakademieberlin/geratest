@@ -1,0 +1,18 @@
+.game {
+margin: 0;
+height: 100%;
+width: 100%;
+background-image: url(../image/background.jpg);
+background-size: cover;
+
+
+}
+
+.absolute {position: absolute;}
+.paketstyle {
+background-color: yellow;
+color:red;
+font-weight: bold;
+border: 1px solid black;
+top: 27vh;
+padding: 0.5vw;}

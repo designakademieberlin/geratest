@@ -1,0 +1,24 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "de.hsechs.beispiel"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "de.hsechs.beispiel"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "de.hsechs.beispiel"
+        },
+        "cordova-build-architecture": {
+            "PACKAGE_NAME": "de.hsechs.beispiel"
+        }
+    },
+    "dependent_plugins": {}
+}

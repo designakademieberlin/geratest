@@ -1,0 +1,42 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-statusbar": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-statusbar@2.2.3"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "cordova-plugin-crosswalk-webview": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-crosswalk-webview@2.3.0"
+        },
+        "is_top_level": true,
+        "variables": {
+            "XWALK_VERSION": "23+",
+            "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
+            "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
+            "XWALK_MODE": "embedded",
+            "XWALK_MULTIPLEAPK": "true"
+        }
+    },
+    "cordova-build-architecture": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/MBuchalik/cordova-build-architecture.git",
+            "subdir": ".",
+            "ref": "v1.0.1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}
